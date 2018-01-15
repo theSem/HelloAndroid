@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sam.helloandroid.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:src="@drawable/udacity_problem"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/udacityLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:paddingTop="16dp"
+        android:src="@drawable/ic_udacity_2" />
+
+    <View style="@style/dividerBar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/titleText"
+            android:text="About"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/infoText"
+            android:text="Udacity is where lifelong learners come to learn the skills they need, to land the jobs they want, to build the lives they deserve."/>
+
+
+    </LinearLayout>
+
+    <View style="@style/dividerBar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:layout_marginBottom="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/titleText"
+            android:text="Contact"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/infoText"
+            android:autoLink="map"
+            android:textColorLink="@color/colorPrimary"
+            android:text="2465 Latham St\nMountain View, CA 94043"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/infoText"
+            android:textColorLink="@color/colorPrimary"
+            android:text="650-555-5555"
+            android:autoLink="phone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/infoText"
+            android:textColorLink="@color/colorPrimary"
+            android:text="www.udacity.com"
+            android:autoLink="web"/>
+
+    </LinearLayout>
+
+</LinearLayout>

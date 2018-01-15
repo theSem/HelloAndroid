@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="infoText">
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingLeft">32dp</item>
+        <item name="android:paddingRight">32dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="titleText">
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="dividerBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>
